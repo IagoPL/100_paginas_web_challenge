@@ -69,3 +69,24 @@ hr.hr-white{
 }
 
 /*utility clases*/
+.contauner{
+  margin: auto;
+  max-width: 1300px;
+  overflow:auto;
+  padding: 0 20px;
+}
+
+.btn{
+  display:inline-block;
+  font-size: 18px;
+  color:fff;
+  padding: 13px 25px;
+}
+
+.btn-light{
+  background: #84d2ee;
+}
+
+.btn-dark{
+  background: #595959;
+}
