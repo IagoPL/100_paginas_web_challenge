@@ -1,0 +1,101 @@
+*{
+  padding:0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/*main style*/
+
+body,html{
+  font-family: 'roboto';
+  color:#4d4d4d;
+}
+
+h1{
+  font-size: 36px;
+  color:white;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 228px;
+}
+h4{
+  font-size: 25px;
+}
+h5{
+	font-size: 18px;
+}
+h6{
+	font-size: 16px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.7em;
+}
+nav {
+  position: fixed;
+  background-color: #fff ;
+
+  left: 0;
+  top: 0;
+  right: 0;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  z-index: 1;
+  
+}
+#navbar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#navbar .logo{
+  float: left;
+  font-size: 37px;
+  text-transform: uppercase;
+	color:#fda94f;
+  }
+#navbar ul{
+  float: right;
+  font-size: 17px;
+  display: inline-block;
+  }
+#navbar ul li{
+  float: left;
+  padding-left: 15px;
+  list-style: none;
+  }
+
+a,a:visited{
+  color:#4d4d4d;
+  text-decoration:  none;
+}
+.active{
+	color: #fda94f !important;;
+}	
+.welcome{
+	padding-top: 75px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.bg-welcome{
+  background-image: url("img/welcome.jpg");
+}
+.img{
+  background-position: center;
+}
+.div-welcome{
+  height: 300px;
+  width: 300px;
+}
+.txt-center{
+  padding-left: 20%;
+  padding-right: 20%;
+  color: white ;
+}
