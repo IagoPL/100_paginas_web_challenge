@@ -1,0 +1,122 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 64px;   
+    font-family: 'Fjalla One', sans-serif; 
+}
+h2{
+    font-size: 30px;   
+}
+h3{
+    font-size: 28px;  
+    font-family: 'Fjalla One', sans-serif;  
+}
+h4{
+    font-size: 17px;
+        
+}
+h5{
+    font-size: 64px;    
+}
+h6{
+    font-size: 64px;    
+}
+p{
+    font-size: 20px;
+}
+
+header{
+    background-image: url(img/karsten-winegeart-fd1cQ3mmBTE-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    color:white;
+}
+nav {
+
+    left: 0;
+    top: 0;
+    right: 0;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 50px;
+    
+}
+#navbar{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+#navbar ul{
+    float: right;
+    font-size: 17px;
+    display: inline-block;
+    }
+#navbar ul li{
+    float: left;
+    padding-left: 15px;
+    list-style: none;
+    }
+
+span{
+    padding: 3px;
+    background:orange;
+    border-radius: 5%;
+    color: white;
+}
+.action{
+    text-decoration: underline;
+}
+#headerdiv{
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 50%;
+}
+#headerdiv p{
+    margin-top: 13px;
+    line-height : 25px;
+}
+
+.btn{
+    display:inline-block;
+    font-size: 18px;
+    color:#fff;
+    padding: 13px 25px;
+  }
+
+  .btn-rose{
+    background: #e84d8a;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 3%;
+  }
+  a,a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+#bg-w{
+    padding-left: 200px;
+    padding-top: 25px;
+}
+#bg-w h2{
+    font-weight: lighter;
+}
+
+.box1{
+    width: 25%;
+}
+/*no va esto aqrreglar*/
+#z{
+    background-image: url(img/imgb1.jpg);
+    background-position: center;
+    background-size: cover;
+}
