@@ -17,6 +17,7 @@ h1{
 }
 h2{
   font-size: 32px;
+  display: inline;
 }
 h3{
   font-size: 228px;
@@ -86,6 +87,7 @@ a,a:visited{
 }
 .bg-welcome{
   background-image: url("img/welcome.jpg");
+  background-size: 100%;
 }
 .img{
   background-position: center;
@@ -99,3 +101,57 @@ a,a:visited{
   padding-right: 20%;
   color: white ;
 }
+
+.box1{
+  color:#4d4d4d;
+}
+.box-center{
+  text-align: center;
+}
+.btn{
+  
+    display:inline-block;
+    font-size: 18px;
+    color:#fff;
+    padding: 13px 25px;
+  
+}
+
+.btn-black{
+  background: #595959;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  ;
+}
+
+.box{
+  
+  color: #fff;
+  width: 33.3%;
+  float: left;
+  padding: 20px;
+  padding-bottom: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.box2{
+background-image: url(img/box1.jpg);
+background-size: 100%;
+background-image: linear-gradient(
+      rgba(255, 0, 0, 0.3), 
+      rgba(255, 0, 0, 0.3)
+    );
+    background-image: url(img/box1.jpg);
+}
+.box3{
+  background-image: url(img/box2.jpg);
+  background-size: 100%;
+  }
+  .box4{
+    background-image: url(img/box3.jpg);
+    background-size: 100%;
+    background-image: linear-gradient(
+      rgba(255, 0, 0, 0.3), 
+      rgba(255, 0, 0, 0.3)
+    ),
+    }
