@@ -1,0 +1,51 @@
+/* Variables */
+:root {
+    --black:#4d4d4d;
+    --dark-grey: #c4c4c4;
+    --light-grey: #ededed;
+    --white:#f9f9f9;
+    --blue:#40c0ff;
+    --purple:#7244aa;
+    --green:#57dea4;
+    --skin:#f2debb;
+
+}
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  /* Main Styling */
+body,
+html {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.7em;
+    color: --bla;
+}
+
+a,a:active {
+    color: var(--black);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 10px;
+}
+
+h1{
+    font-weight: lighter;
+}
+h2 {
+    font-size: 32px;
+    font-weight: lighter; /* 100 */
+    line-height: 1.4em;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
