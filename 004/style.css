@@ -49,3 +49,77 @@ h4 {
     font-size: 16px;
     font-weight: bold;
 }
+/*header*/
+/*
+nav{ 
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 45px;
+}*/
+header{
+	color: var(--black);	
+
+}
+header a {
+	text-decoration: none;
+}
+header a:hover{
+	color: var(--black);
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+}
+.container{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+#logo{
+	padding-top: 25px;
+  font-weight:700;
+  font-size: 3em;
+  letter-spacing: 5px;
+}
+header ul{
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+header ul li{
+	display: inline-block;
+	border-spacing: 0ch;
+}
+#navbar ul li a {
+	display: block;
+	padding: 25px;
+	text-align: center;
+	transition: all 0.4s linear;
+	margin: 0;
+  }
+  
+  #navbar ul li a:hover,
+  #navbar ul li a.current {
+	background: var(--skin);
+	color: var(--black);
+  }
+#header-img{ 
+	background-image: url(img/bg-header.jpg);
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+
+#white-bg-box{
+	position: absolute;
+	z-index: 20;
+
+	background-color: rgba(255, 255, 255, 0.568);
+
+
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
