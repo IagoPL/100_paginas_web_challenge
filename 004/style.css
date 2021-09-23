@@ -3,7 +3,7 @@
     --black:#4d4d4d;
     --dark-grey: #4d4b4b;
     --light-grey: #dfe1e238;
-    --white:#ececec;
+    --white:#fff;
     --blue:#40c0ff;
     --purple:#7244aa;
     --green:#57dea4;
@@ -115,7 +115,7 @@ header ul li{
   height: 200px;
 
   text-align: center;
-  margin: auto;
+  margin:  auto;
   padding: 5%;
 }
 
@@ -161,7 +161,7 @@ img{
 img{
   overflow:hidden;
   transition: all 0.2s ease-in-out;
-  filter: saturate(150%);
+
   border-radius: 1%;
   
 }
@@ -204,7 +204,7 @@ footer ul li{
     }
     i{
       padding: 20px 5px;
-      color: var(--skin);
+      color: var(--black);
       font-size: 25px;
       filter: saturate(120%);
     }
