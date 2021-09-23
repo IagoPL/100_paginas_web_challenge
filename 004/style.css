@@ -1,9 +1,9 @@
 /* Variables */
 :root {
     --black:#4d4d4d;
-    --dark-grey: #c4c4c4;
-    --light-grey: #ededed;
-    --white:#f9f9f9;
+    --dark-grey: #4d4b4b;
+    --light-grey: #dfe1e238;
+    --white:#ececec;
     --blue:#40c0ff;
     --purple:#7244aa;
     --green:#57dea4;
@@ -22,7 +22,7 @@ body,
 html {
     font-family: 'Raleway', sans-serif;
     line-height: 1.7em;
-    color: --bla;
+    background-color: var(--white);
 }
 
 a,a:active {
@@ -161,6 +161,9 @@ img{
 img{
   overflow:hidden;
   transition: all 0.2s ease-in-out;
+  filter: saturate(150%);
+  border-radius: 1%;
+  
 }
 img:hover{
   -webkit-transform:scale(1.1);transform:scale(1.1);
@@ -196,10 +199,12 @@ footer ul li{
 
     #footer-txt{
       padding-top: 25px;
+      color:var(--dark-grey)
 
     }
     i{
       padding: 20px 5px;
       color: var(--skin);
       font-size: 25px;
+      filter: saturate(120%);
     }
