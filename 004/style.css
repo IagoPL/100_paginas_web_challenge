@@ -38,6 +38,7 @@ h3 {
 
 h1{
     font-weight: lighter;
+    font-size: 42px;
 }
 h2 {
     font-size: 32px;
@@ -50,12 +51,8 @@ h4 {
     font-weight: bold;
 }
 /*header*/
-/*
-nav{ 
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 45px;
-}*/
+
+
 header{
 	color: var(--black);	
 
@@ -108,18 +105,101 @@ header ul li{
 	height: 500px;
 	background-size: cover;
 	background-position: center;
+  text-align:center;
 }
 
 #white-bg-box{
-	position: absolute;
-	z-index: 20;
-
 	background-color: rgba(255, 255, 255, 0.568);
-
-
-  height: 100%;
   width: 60%;
+
+  height: 200px;
+
+  text-align: center;
   margin: auto;
-  padding-top: 40px;
+  padding: 5%;
+}
+
+#search ul li{
+	display: inline-block;
+	border-spacing: 0ch;
+  
+}
+#search ul li a {
+	display: block;
+	padding: 15px 20px;
+	transition: all 0.2s linear;
+	margin: 0;
+  display: flex;
+text-align: center;
+  }
+#search ul{
+  margin:10px auto;
+  display:block;
   text-align: center;
 }
+  #search ul li a:hover,
+  #search ul li a.current {
+	background: var(--skin);
+	color: var(--black);
+  }
+
+#container{
+  display: grid;
+  grid-template-columns: 33.3% 33.3%33.3%;
+  grid-gap: 0.75% 2.5%;
+  margin: 0 20%;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin:10px auto;
+	display:block;
+  align-items: center;
+}
+img{
+  overflow:hidden;
+  transition: all 0.2s ease-in-out;
+}
+img:hover{
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+  transition: all 0.2s linear;
+
+}
+#footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+
+  height: 80px;
+  margin-top: 25px ;
+}
+
+#footer-txt{
+	padding-top: 25px;
+
+
+  
+}
+footer ul{
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+footer ul li{
+	display: inline-block;
+	border-spacing: 0ch;
+}
+
+
+    #footer-txt{
+      padding-top: 25px;
+
+    }
+    i{
+      padding: 20px 5px;
+      color: var(--skin);
+      font-size: 25px;
+    }
