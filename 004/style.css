@@ -2,7 +2,7 @@
 :root {
     --black:#4d4d4d;
     --dark-grey: #4d4b4b;
-    --light-grey: #dfe1e238;
+    --light-grey: #dfe1e2;
     --white:#fff;
     --blue:#40c0ff;
     --purple:#7244aa;
@@ -105,6 +105,13 @@ header ul li{
   #navbar ul li a.current {
 	background: var(--skin);
 	color: var(--black);
+  }
+  #header-grey{
+    background-color: var(--light-grey);
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+  text-align:center;
   }
 #header-img{ 
 	background-image: url(img/bg-header.jpg);
