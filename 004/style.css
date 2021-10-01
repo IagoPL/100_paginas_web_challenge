@@ -176,10 +176,7 @@ img:hover{
   transition: all 0.2s linear;
 
 }
-#footer-container{
-  display: flex;
-  justify-content: space-between;
-}
+
 footer{
 
   height: 80px;
